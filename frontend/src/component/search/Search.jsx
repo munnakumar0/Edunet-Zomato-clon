@@ -52,7 +52,7 @@ function Search(props) {
         <div id="search-box-main">
             <div id="location">
                 <img id="location-icon" src={location} alt="" />
-                <div style={{ color: "grey" }}>Kolkata</div>
+                <div style={{ color: "grey" }}>Chennai</div>
             </div>
             <div id="search-item">
                 {
@@ -63,7 +63,7 @@ function Search(props) {
                                 <div className="open-search-child">
                                     <div className="open-search-grand-child">
                                         <BsSearch style={{
-                                            color: "grey", height: "1rem",
+                                            color: "gray", height: "1rem",
                                             width: "1rem"
                                         }} />
                                         <input onChange={props.search} type="search" placeholder="Search for restaurant, cuisine or a dish" />
