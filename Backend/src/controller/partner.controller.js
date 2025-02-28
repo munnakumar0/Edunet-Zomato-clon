@@ -23,7 +23,7 @@ const sendEmail = async (req, res) => {
 
   console.log("transporter: ", transporter);
 
-  // Setup email data
+  // Setup email 
   let mailOptions = { 
     from: "munnak0995@gmail.com",
    to: email,
