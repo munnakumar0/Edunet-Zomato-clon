@@ -34,7 +34,7 @@ const sendEmail = async (req, res) => {
   console.log("mailOptions: ", mailOptions);
 
   try {
-    // Send mail with defined transport object
+  
     await transporter.sendMail(mailOptions);
     res.status(201).json({ emailstatus: "Email sent successfully!" });
   } catch (error) {
